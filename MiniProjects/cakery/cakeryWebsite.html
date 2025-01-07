@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munamii Cakery</title>
+    <link rel="stylesheet" href="/styleSheets/styleSheets_Cakery.css">
+    <script src="/scripts/cakeryWebsite.js"></script>
+
+</head>
+<body>
+    <br><br>
+    <div class="vertical-center"> <a href="/index.html" class="button">HOME page</a></div>
+    <img src="/images/Munamii.png" alt="Description" style="position: relative; left: 40%;" width="215px" height="180px">
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="container">
+        <h2>Welcome to Munamii Cakery</h2>
+        <p><span style="font-style: italic; color: bisque;">Hello! Welcome to Munamii Cakery!</span>We offer you the most delicious cakes and cupcakes for all kinds of events and celebrations. Browse around to discover what you would like to buy.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <h2>About Us</h2>
+        <p>At Munamii Cakery, each cake, each box of cupcakes that we make has a very special value for us. We not only want to bring a dessert to your table but rather a unique experience for you, which will become an unforgettable memory. We have been in the pastry market for more than 8 years and now we offer you a new way to shop through our website.</p>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="container">
+        <h2>Our Products</h2>
+        <div class="filter-buttons">
+            <button onclick="filterProducts('cupcake')">Cupcakes</button>
+            <button onclick="filterProducts('wedding-cake')">Wedding Cakes</button>
+        </div>
+
+        <div class="products-section">
+            <div class="product-card cupcake">
+                <img src="/images/CC_chocolate_chips.png" alt="Chocolate & Chips">
+                <h3>Chocolate & Chips</h3>
+                <p>$3.75</p>
+                <button onclick="addToCart('Chocolate & Chips', 3.75)">Add to Cart</button>
+            </div>
+            <div class="product-card cupcake">
+                <img src="/images/CC_chocolate_con_Manjar.png" alt="Chocolate Delight">
+                <h3>Chocolate Delight</h3>
+                <p>$4.00</p>
+                <button onclick="addToCart('Chocolate Delight', 4.00)">Add to Cart</button>
+            </div>
+            <div class="product-card cupcake">
+                <img src="/images/CC_chocolate_con_Nutella.png" alt="Chocolate With Nutella">
+                <h3>Chocolate With Nutella</h3>
+                <p>$4.25</p>
+                <button onclick="addToCart('Chocolate With Nutella', 4.25)">Add to Cart</button>
+            </div>
+            <div class="product-card cupcake">
+                <img src="/images/CC_RedVelvet.png" alt="RedVelvet">
+                <h3>RedVelvet</h3>
+                <p>$4.60</p>
+                <button onclick="addToCart('RedVelvet Cupcake', 4.60)">Add to Cart</button>
+            </div>
+            <div class="product-card cupcake">
+                <img src="/images/CC_Vanilla_con_Manjar.png" alt="Vanilla">
+                <h3>Vanilla</h3>
+                <p>$3.20</p>
+                <button onclick="addToCart('Vanilla Cupcake', 3.20)">Add to Cart</button>
+            </div>
+            <div class="product-card cupcake">
+                <img src="/images/CC_4_Pack.png" alt="Combo">
+                <h3>4 Pack Combos</h3>
+                <p>$12.00</p>
+                <button onclick="addToCart('12 Pack Combo', 12.00)">Add to Cart</button>
+            </div>
+            <div class="product-card cupcake">
+                <img src="/images/CC_6_Combo.png" alt="Cupcake 7">
+                <h3>6 Pack Combos</h3>
+                <p>$15.00</p>
+                <button onclick="addToCart('6 Pack Combo', 15.00)">Add to Cart</button>
+            </div>
+            <div class="product-card cupcake">
+                <img src="/images/CC_12_Combo.png" alt="Cupcake 8">
+                <h3>12 Pack Combo</h3>
+                <p>$20.00</p>
+                <button onclick="addToCart('12 Pack Combo', 20.00)">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="products-section">
+            <div class="product-card wedding-cake">
+                <img src="/images/C_Cookie Monster.png" alt="Cookie Monster">
+                <h3>Cookie Monster</h3>
+                <p>$35.00</p>
+                <button onclick="addToCart('Cookie Monster', 35.00)">Add to Cart</button>
+            </div>
+            <div class="product-card wedding-cake">
+                <img src="/images/C_Elisa.png" alt="Elisa">
+                <h3>Elisa</h3>
+                <p>$30.00</p>
+                <button onclick="addToCart('Elisa', 30.00)">Add to Cart</button>
+            </div>
+            <div class="product-card wedding-cake">
+                <img src="/images/C_Flork San Valentín.png" alt="Flork San Valentín">
+                <h3>Flork San Valentín</h3>
+                <p>$25.00</p>
+                <button onclick="addToCart('Flork San Valentín', 25.00)">Add to Cart</button>
+            </div>
+            <div class="product-card wedding-cake">
+                <img src="/images/C_Party_Chocolate.png" alt="Party_Chocolate">
+                <h3>Party Chocolate</h3>
+                <p>$35.00</p>
+                <button onclick="addToCart('Party Chocolate', 35.00)">Add to Cart</button>
+            </div>
+            <div class="product-card wedding-cake">
+                <img src="/images/C_Torta Belén.png" alt="Torta Belén">
+                <h3>Torta Belén</h3>
+                <p>$35.00</p>
+                <button onclick="addToCart('Torta Belén', 35.00)">Add to Cart</button>
+            </div>
+            <div class="product-card wedding-cake">
+                <img src="/images/C_Torta Gabriela.png" alt="Torta Gabriela">
+                <h3>Torta Gabriela</h3>
+                <p>$20.00</p>   
+                <button onclick="addToCart('Torta Gabriela', 20.00)">Add to Cart</button>
+            </div>
+            <div class="product-card wedding-cake">
+                <img src="/images/C_Torta Kitty Cat.png" alt="Torta Kitty Cat">
+                <h3>Torta Kitty Cat</h3>
+                <p>$35.00</p>
+                <button onclick="addToCart('Torta Kitty Cat', 35.00)">Add to Cart</button>
+            </div>
+            <div class="product-card wedding-cake">
+                <img src="/images/C_Torta_Jack.png" alt="Torta Jack">
+                <h3>Torta Jack</h3>
+                <p>$35.00</p>
+                <button onclick="addToCart('Torta Jack', 35.00)">Add to Cart</button>
+            </div>
+        </div>
+
+        <div id="cart" class="container" style="background-color: rgb(177, 177, 175);;">
+            <h3 style="font-weight: bolder; color:#d87977;">Your Cart : </h3>
+            <ul id="cart-items"></ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-section">
+            <p><span style="font-weight: bolder;">delivery service :</span> All the city of Stockholm and Malmo with an additional cost.</p>
+            <p><span style="font-weight: bolder;">Place to pick up order :</span> Via la Costa Avenue. Blue Port gated neighbourhood. We will send you the GPS Location via WhatsApp.</p>
+            <p>Orders must be placed<span style="font-weight: bolder; color: rgb(234, 59, 59);"> 2 days before</span> for greater security, processing, and availability.</p>
+            <p><span style="font-weight: bolder;">Tuesday to Saturday :</span> 9 a.m. to 2 p.m.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Follow us on <a href="https://instagram.com">Instagram</a> and <a href="https://facebook.com">Facebook</a></p>
+        <p>Contact us via <a href="mailto:email@example.com">email</a></p>
+    </footer>
+</body>
+</html>

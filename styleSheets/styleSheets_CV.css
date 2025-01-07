@@ -1,0 +1,98 @@
+  h1.heading{
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px rgb(174, 91, 251);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  h2{
+    color: black;
+    text-align: left;
+    font-weight: 550;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+  }
+  h3.effect {
+    color: orange;
+    background-color: azure;
+    text-align: center;
+  }
+  
+   *.fontFamily{
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+   }
+
+   *.fontStrong{
+        font-weight: bolder;
+   }
+  
+   *.listfontFamily{
+    font-family: 'Times New Roman', Times, serif;
+   }
+
+  .container {
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+   }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 23% 77%;
+    border: 1px,dotted;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+
+  .firstColoumn {
+    background-color: rgb(170, 216, 238);
+  }
+  .secondColoumn {
+    background-color: white;
+  }
+  .emptyLine {
+    background-color: rgb(170, 216, 238);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px,dotted, black;
+  }
+
+  .positioned-image {
+    position: absolute;
+    left: 60px;
+    top:75px
+  }
+
+  .textBorder{
+    border: 1px, dotted, black;
+    padding: 5px;
+  }
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    right: 5%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
