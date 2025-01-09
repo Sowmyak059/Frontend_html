@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart</title>
+    <link rel="stylesheet" href="styleSheets/cart.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Baby Giggles - Cart</h1>
+        <nav>
+            <button onclick="openOrderTrackingPage()">Track Order</button>
+            <button onclick="gotoHomePage()">Home</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="cart-items">
+            <!-- Dynamically populated cart items go here -->
+        </section>
+
+        <section id="checkout-section" style="display: none;">
+            <button id="checkout-btn">Proceed to Checkout</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Baby Giggles</p>
+    </footer>
+
+    <script src="scripts/babyGigglesCart.js"></script>
+
+</body>
+</html>

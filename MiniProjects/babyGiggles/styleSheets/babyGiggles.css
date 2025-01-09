@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #ff80ab;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.header nav {
+    margin: 10px 0;
+}
+
+.header nav button {
+    background-color: #3f769d;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.header nav button:hover {
+    background-color: #d6b42a;
+}
+
+.default-message {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.default-message img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    max-height: 500px;
+    overflow-y: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.add-to-cart {
+    background-color: #ff80ab;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.add-to-cart:hover {
+    background-color: #e75480;
+}
+
+#slider-img {
+    border-radius: 8px;
+    transition: opacity 1s ease-in-out;
+}
+
+footer {
+    background-color: #f8d7e0;
+    text-align: center;
+    padding: 10px 0;
+}

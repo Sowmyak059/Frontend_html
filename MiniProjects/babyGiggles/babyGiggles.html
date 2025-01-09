@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Giggles</title>
+    <link rel="stylesheet" href="styleSheets/babyGiggles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Baby Giggles</h1>
+        <nav>
+            <button class="category-btn" data-category="boys">Boys Fashion</button>
+            <button class="category-btn" data-category="girls">Girls Fashion</button>
+            <button class="category-btn" data-category="toys">Toys</button>
+            <button class="category-btn" data-category="winter-wear">Winter Wear</button>
+            <button onclick="openViewCartPage()">View Cart</button>
+            <button onclick="gotoHomePage()">Home</button>
+            <button onclick="gotoIndexPage()">Index Page</button>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="default-message" class="default-message">
+            <p style="background-color: rgb(23, 243, 195); padding: 5px; border-radius: 10px; max-width: 400px;
+             text-align: center; position: relative; left: 35%;">Current Ongoing offers</p>
+            <img id="slider-img" src="images/Offer_1.png" alt="Product Image 1">
+        </section>
+
+        <!-- Products Container -->
+        <section id="products-container" class="products-container" style="display: none;">
+            <!-- Dynamically populated products go here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Baby Giggles</p>
+    </footer>
+
+    <script src="scripts/babyGiggles.js"></script>
+</body>
+</html>
