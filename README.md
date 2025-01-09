@@ -67,7 +67,7 @@ This website built using HTML, CSS, and JavaScript. Deployed on platform GitHub 
 ## Usage
 - Explore individual project folders for specific implementations.
 - Modify the code to customize the projects or add your features.
-- Deploy projects using platforms like GitHub Pages, Firebase, or Netlify.
+- Deploy projects using platform like GitHub Pages.
 
 ## Contributing
 Contributions are welcome! If you want to enhance this repository:
